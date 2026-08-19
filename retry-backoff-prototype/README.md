@@ -1,6 +1,6 @@
 # Retry/Backoff Prototype
 
-I built this as a Day 1 sprint prototype to get hands-on with exponential backoff — something I'd read about but never actually implemented from scratch.
+I built this as a Day 1 & 2 sprint prototype to get hands-on with exponential backoff — something I'd read about but never actually implemented from scratch.
 
 The idea is simple: you have a server that fails a lot, and instead of hammering it with retries immediately, the client waits a bit longer each time before trying again. That's the core of it.
 
